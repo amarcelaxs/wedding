@@ -1,0 +1,3 @@
+.bg-full{
+            background-image:url('viva-1000x800.jpg');
+        }

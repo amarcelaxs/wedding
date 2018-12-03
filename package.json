@@ -1,0 +1,27 @@
+{
+  "name": "site-modelo",
+  "version": "1.0.0",
+  "description": "site-modelo",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ls"
+  },
+  "author": "marcela",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "dependencies": {
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-sass": "^3.0.1",
+    "node-sass": "^4.9.3",
+    "sass": "^1.13.4"
+  }
+}
