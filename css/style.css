@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,900");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');*/
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Satisfy");
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
 body {
   background: #fff;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Pacifico", cursive; }
 
 .no-padding {
   padding: 0; }
@@ -82,7 +85,7 @@ body {
     .site-header .navbar li {
       height: 50px;
       padding-top: 5px;
-      width: 100px;
+      /*width:100px;*/
       /*
       &:nth-last-child(3){
              border-bottom: none;
@@ -97,12 +100,13 @@ body {
           line-height: 35px !important;
       }*/ }
       .site-header .navbar li .nav-link {
-        font-size: 10px;
-        color: #292929;
+        font-size: 20px;
+        color: #fff;
         text-transform: none;
         font-weight: 600;
         text-align: center;
-        line-height: 12px; }
+        line-height: 21px;
+        letter-spacing: 4px; }
         .site-header .navbar li .nav-link img {
           width: 25px;
           margin-right: 5px;
@@ -170,63 +174,6 @@ main {
         transition: all .1s ease-in-out; }
     main .piecebanner div .carousel-item div {
       padding: 0; }
-  main .pieceregister {
-    background: #0e2b4e;
-    height: 190px;
-    /*box-shadow: 0px 14px 20px -13px #292929;*/ }
-    main .pieceregister .box-one {
-      padding: 0px 45px;
-      border: 2px dashed #fff;
-      border-right: none;
-      border-left: none;
-      border-bottom: none;
-      margin-bottom: 15px; }
-      main .pieceregister .box-one p {
-        padding: 20px 45px;
-        font-size: 30px;
-        color: #fff; }
-        main .pieceregister .box-one p:nth-child(1n) {
-          font-size: 30px;
-          text-transform: uppercase;
-          margin-bottom: 0;
-          padding-bottom: 0; }
-        main .pieceregister .box-one p:nth-child(2n) {
-          font-size: 25px;
-          font-style: italic;
-          margin-top: -13px;
-          padding-top: 0;
-          text-transform: none; }
-    main .pieceregister .box-two {
-      padding-top: 10px;
-      border: 1.2px dashed red;
-      border-bottom: none;
-      border-top: 0;
-      border-left: none;
-      padding-right: 19px; }
-      main .pieceregister .box-two p {
-        color: #fff; }
-        main .pieceregister .box-two p:nth-child(1n) {
-          width: 40%;
-          float: right;
-          line-height: 18px;
-          margin-bottom: 7px; }
-        main .pieceregister .box-two p:last-child {
-          width: 51%;
-          float: left; }
-      main .pieceregister .box-two:nth-child(3n) {
-        border: none; }
-    main .pieceregister .seta {
-      animation: MoveUpDown 1s ease-out infinite;
-      display: inline-block;
-      margin: -13px auto; }
-    main .pieceregister .seta div {
-      color: red;
-      font-size: 30px; }
-@keyframes MoveUpDown {
-  0%, 100% {
-    transform: translate(0, 0); }
-  50% {
-    transform: translate(0, 5px); } }
   main .steps {
     padding: 50px;
     background: #edf9ff; }
@@ -377,25 +324,25 @@ main {
     height: 546px;
     background-repeat: no-repeat; }
     main .bg-cell div {
-      margin-top: 215px; }
+      /*margin-top:215px;*/ }
       main .bg-cell div p:nth-child(1n) {
         color: red;
         font-size: 46px;
-        width: 42%;
+        /*width: 42%;*/
         line-height: 39px; }
       main .bg-cell div p:nth-child(2n) {
         color: #fff;
         font-size: 25px;
         width: 100%; }
   main .qualidade {
-    background: #edf9ff;
-    border: 2px dashed #ddd;
+    /*background: #edf9ff;*/
+    /*border: 2px dashed #ddd;*/
     border-left: none;
     border-right: none;
     border-bottom: none;
     padding: 50px; }
     main .qualidade img {
-      width: 60%; }
+      width: 100%; }
     main .qualidade p:nth-child(1n) {
       color: red;
       font-size: 42px;
@@ -403,10 +350,12 @@ main {
       width: 40%; }
     main .qualidade p:nth-child(2n) {
       color: #000;
-      font-size: 11.1px;
-      line-height: 15px;
+      font-size: 30px;
+      line-height: 30px;
       font-weight: bold;
-      width: 50%; }
+      width: 80%;
+      text-align: justify;
+      font-family: "Sacramento", cursive; }
     main .qualidade p span:nth-child(2n) {
       color: blue; }
   main .vantagens {
@@ -440,23 +389,6 @@ main {
     transform: translate(0, 0); }
   50% {
     transform: translate(0, 5px); } }
-  main .voltar-topo {
-    padding: 10px;
-    background-color: #29c5feab;
-    height: 60px; }
-    main .voltar-topo .gotop {
-      padding: 0 9px;
-      text-decoration: none;
-      font-size: 40px;
-      color: red;
-      margin-top: -10px; }
-      main .voltar-topo .gotop i {
-        color: red; }
-    main .voltar-topo p {
-      color: #fff;
-      text-transform: capitalize;
-      font-size: 25px; }
-
 footer {
   height: 250px;
   background: #29c5fe;
@@ -589,25 +521,6 @@ footer {
           margin-right: 50px; }
         main .pieceprocessos ul li p {
           line-height: 15px; }
-  main .pieceregister .box-one {
-    padding: 0 10%; }
-    main .pieceregister .box-one p:nth-child(1n) {
-      font-size: 20px;
-      padding: 2px 10px 0;
-      font-size: 20px;
-      text-align: center !important;
-      line-height: 20px; }
-    main .pieceregister .box-one p:nth-child(2n) {
-      font-size: 16px;
-      margin-top: 2px; }
-  main .pieceregister .box-two {
-    padding: 0;
-    margin-top: -13px; }
-    main .pieceregister .box-two p:nth-child(1n) {
-      width: 100%;
-      padding: 0;
-      margin-top: 0;
-      text-align: center; }
   main .compra-assistida {
     padding-top: 5px;
     height: 150px; }
@@ -671,12 +584,6 @@ footer {
     main .vantagens .vantagem-box img {
       margin: 5px auto;
       border: none; }
-  main .voltar-topo {
-    height: 120px; }
-    main .voltar-topo .gotop {
-      margin: 0 40%; }
-    main .voltar-topo p {
-      text-align: center; }
 
   footer {
     height: 480px; }
@@ -746,25 +653,6 @@ footer {
           margin-right: 50px; }
         main .pieceprocessos ul li p {
           line-height: 15px; }
-  main .pieceregister .box-one {
-    padding: 2%; }
-    main .pieceregister .box-one p:nth-child(1n) {
-      font-size: 20px;
-      padding: 2px 10px 0;
-      font-size: 20px;
-      text-align: center !important;
-      line-height: 20px; }
-    main .pieceregister .box-one p:nth-child(2n) {
-      font-size: 16px;
-      margin-top: 2px; }
-  main .pieceregister .box-two {
-    padding: 0;
-    margin-top: 0; }
-    main .pieceregister .box-two p:nth-child(1n) {
-      width: 100%;
-      padding: 3px;
-      margin-top: 0;
-      text-align: center; }
   main .compra-assistida {
     padding-top: 50px;
     height: 150px; }
@@ -829,12 +717,6 @@ footer {
       border: none; }
       main .vantagens .vantagem-box img {
         margin: 5px auto; }
-  main .voltar-topo {
-    height: 120px; }
-    main .voltar-topo .gotop {
-      margin: 0 47%; }
-    main .voltar-topo p {
-      text-align: center; }
 
   footer {
     height: 430px; }
@@ -874,10 +756,6 @@ footer {
       width: 100%; }
     main .piecebanner a {
       width: 100%; }
-  main .pieceregister {
-    height: 260px; }
-    main .pieceregister .box-two {
-      border: none; }
   main .compra-assistida .box-two p:nth-child(1n) {
     width: 100%; }
   main .compra-assistida .box-two p:nth-child(2n) {
@@ -906,10 +784,6 @@ footer {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   main .piecebanner p {
     width: 100%; }
-  main .pieceregister {
-    height: 200px; }
-    main .pieceregister p {
-      width: 100%; }
   main .compra-assistida .box-two {
     border: 1.2px dashed red;
     border-bottom: none;
@@ -936,9 +810,6 @@ footer {
   footer .copy {
     padding: 3% 38% 0; } }
 @media (min-width: 1200px) {
-  main .pieceregister {
-    height: 200px; }
-
   footer .copy {
     padding: 2% 28%  0  37%; } }
 /*
