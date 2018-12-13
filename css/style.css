@@ -120,9 +120,10 @@ body {
           margin-right: 1px; }
         .site-header .navbar li .nav-link:hover {
           color: #000;
-           /*
-transition: all .3s ease-in-out;
-border-bottom: 5px solid #F73A44;*/ }
+          transition: all .3s ease-in-out;
+          /*
+          transition: all .3s ease-in-out;
+          border-bottom: 5px solid #F73A44;*/ }
       .site-header .navbar li .login {
         font-size: 14px !important;
         padding-top: 15px; }
@@ -142,6 +143,9 @@ border-bottom: 5px solid #F73A44;*/ }
 main {
   /*PAGE HOME*/
   /*piecetext1{*/ }
+  main .points p {
+    font-family: "Sacramento", cursive;
+    font-size: 48px; }
   main .piecebanner .carousel {
     margin-top: -50px; }
   main .piecebanner div {

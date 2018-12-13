@@ -27,9 +27,6 @@ body{
 }
 
 
-
-
-
 /*HOME*/
 /*header*/
 .site-header{
@@ -124,7 +121,9 @@ body{
                     margin-right:1px;
                 }
                 &:hover{
-                    color:#000;/*
+                    color:#000;
+                    transition: all .3s ease-in-out;
+                    /*
                     transition: all .3s ease-in-out;
                     border-bottom: 5px solid #F73A44;*/
                 }
@@ -165,6 +164,13 @@ body{
 
 main{
     /*PAGE HOME*/
+    .points{
+        p{
+            font-family: $font-Sacramento;
+            font-size: 48px;
+            
+        }
+    }
     .piecebanner{
         .carousel{
             margin-top:-50px;
