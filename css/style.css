@@ -179,8 +179,17 @@ main {
     main .piecebanner div .carousel-item div {
       padding: 0; }
   main .steps {
-    padding: 50px;
-    background: #edf9ff; }
+    padding: 50px; }
+    main .steps .box-steps {
+      background: #eee;
+      width: 280px;
+      height: 300px; }
+    main .steps p {
+      color: #000;
+      text-align: center;
+      padding: 5px; }
+      main .steps p:hover {
+        text-decoration: none; }
     main .steps .steps-number a {
       text-decoration: none; }
       main .steps .steps-number a img {
@@ -341,6 +350,7 @@ main {
   main .qualidade {
     /*background: #edf9ff;*/
     /*border: 2px dashed #ddd;*/
+    background: #eee;
     border-left: none;
     border-right: none;
     border-bottom: none;
@@ -351,17 +361,28 @@ main {
       color: red;
       font-size: 42px;
       line-height: 40px;
-      width: 40%; }
+      /*width:40%;*/ }
     main .qualidade p:nth-child(2n) {
       color: #000;
       font-size: 30px;
-      line-height: 30px;
+      line-height: 40px;
       font-weight: bold;
-      width: 80%;
+      /*width:80%;*/
       text-align: justify;
       font-family: "Sacramento", cursive; }
     main .qualidade p span:nth-child(2n) {
       color: blue; }
+  main .presenca {
+    padding: 50px; }
+    main .presenca .input-group {
+      border: none;
+      background: none; }
+    main .presenca img {
+      width: 100%; }
+    main .presenca p {
+      color: red;
+      font-size: 42px;
+      line-height: 40px; }
   main .vantagens {
     background: #0e2b4e;
     height: 250px; }

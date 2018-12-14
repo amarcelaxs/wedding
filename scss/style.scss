@@ -216,7 +216,19 @@ main{
     /*piecetext1{*/
     .steps{
         padding: 50px;
-        background: #edf9ff;
+        .box-steps{
+            background: #eee;
+            width: 280px;
+            height: 300px;
+        }
+        p{
+            color: #000;
+            text-align: center;
+            padding: 5px;
+            &:hover{
+                text-decoration: none;
+            }
+        }
         .steps-number{
             a{
                 text-decoration:none;
@@ -424,6 +436,7 @@ main{
     .qualidade{
         /*background: #edf9ff;*/
         /*border: 2px dashed #ddd;*/
+        background:#eee;
         border-left: none;
         border-right: none;
         border-bottom: none;
@@ -436,21 +449,40 @@ main{
                 color: red;
                 font-size: 42px;
                 line-height: 40px;
-                width:40%;
+                /*width:40%;*/
                 
             }
             &:nth-child(2n){
                 color: #000;
                 font-size: 30px;
-                line-height: 30px;
+                line-height: 40px;
                 font-weight: bold;
-                width:80%;
+                /*width:80%;*/
                 text-align: justify;
                 font-family: $font-Sacramento;
             }
             span:nth-child(2n){
                 color:blue;
             }
+        }
+    }
+    .presenca{
+        padding: 50px;
+        .input-group{
+            border: none;
+            background:none;
+           
+        }
+        
+       
+        img{
+            width:100%;
+        }
+        p{
+         
+                color: red;
+                font-size: 42px;
+                line-height: 40px;
         }
     }
     
